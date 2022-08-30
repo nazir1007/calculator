@@ -1,0 +1,87 @@
+/* -------  Google Font link ---- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+/* ------   General Styling ----- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  background-color: lightgray;
+  display: grid;
+  place-content: center;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+/* -----   Styling for Calulator Body ------ */
+.calculator {
+  height: 80vh;
+  width: 50vh;
+  background-color: rgb(51, 50, 50);
+  border-radius: 2rem;
+  padding: 1rem;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(243, 180, 180, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(243, 180, 180, 0.75);
+  box-shadow: 7px 7px 5px 0px rgba(243, 180, 180, 0.75);
+}
+/* --------Styling for calulator wrapper -------*/
+.wrapper {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 5px;
+}
+/*-------- Styling for input screen  -------- */
+.screen {
+  background-color: white;
+  border-radius: 0.7rem;
+  grid-column: 1/ -1;
+  color: black;
+  text-align: right;
+  padding: 0.1rem;
+  font-size: 4rem;
+  overflow: hidden;
+}
+/* -------- Styling for calulator Buttons -------*/
+.btn {
+  display: grid;
+  place-content: center;
+  background-color: rgba(65, 65, 62);
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* --------  Styling for button hovering ---------*/
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* ------ Styling for clear, plus/minus and percent button -------*/
+.light-grey {
+  background-color: goldenrod;
+  color: black;
+}
+/*------- Styling for hovering clear, plus/minus and percent button -------*/
+.light-grey:hover {
+  background-color: white;
+  color: black;
+}
+
+/* ----- Styling for Devide, Plus, Minus, Multiply and equals button -------*/
+.orange {
+  background-color: orangered;
+}
+
+/* ------ Styling for hovering Devide, Plus, Minus, Multiply and Equals button -------*/
+.orange:hover {
+  background-color: white;
+  color: orangered;
+}
