@@ -7,7 +7,7 @@ arranging the numbers in format.
 ## Version
 
 - react - v18.2.0
-- reaact-number-format - v4.9.3
+- react-number-format - v4.9.3
 
 ## cerated at
 
