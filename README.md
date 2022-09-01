@@ -13,6 +13,10 @@ arranging the numbers in format.
 
 01 Sep 2022
 
+## To Create React App
+
+### `npx create-react-app app_name`
+
 ## To Start 
 
 ### `npm start`
